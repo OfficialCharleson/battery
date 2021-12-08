@@ -50,7 +50,7 @@ while True:
                 title="Plugged Out",
 
                 # message of notification
-                message="You just unplugged your charger! {}%".format(battery.percentage),
+                message="You just unplugged your charger! {}%".format(battery.percent),
 
                 # displaying time
                 timeout=2
